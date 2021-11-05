@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Verificador de Idade
+        </h1>
+    </header>
+
+    <section>
+        <div id="wraper">
+            <div id="quest">
+                <div id="nasc">
+                    <span>Ano de nsacimento:</span>
+                    <input type="number" name="ano" id="ano" min="0" >
+                </div><!--nasc-->
+                <div id="sex">
+                    <p>Sexo:
+                        <input type="radio" name="radsex" id="masc" checked>
+                        <span>Masculino
+                        <input type="radio" name="radsex" id="fem" >
+                        <span>Feminino</span>
+                    </p>
+                </div><!--sex-->
+                <div id="bot">
+                    <input type="submit" value="Verificar" onclick="clicar()">
+                </div>
+            </div><!--quest-->
+
+            <div id="resultado">
+                <div id="res">
+                    Preencha os dados.
+                </div><!--res-->
+
+                <div id="foto">
+
+                </div><!--foto-->
+            </div><!--resultado-->
+        </div><!--wraper-->
+    </section>
+
+    <footer>
+        <p>&copy;EBMCompany</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
