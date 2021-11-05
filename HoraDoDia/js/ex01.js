@@ -5,7 +5,6 @@ function loading() {
     var data = new Date()
     var hora = data.getHours()
     var minuto = data.getMinutes()
-    hora = 10
     if (minuto < 10){
         msg.innerHTML = `Agora são ${hora}:0${minuto}.`
     }
